@@ -1,0 +1,88 @@
+.blockRegister{
+	width: 400px;
+    margin: 100px auto;
+}
+.blockRegister h2{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size:30px;
+}
+h2.loginTitle{
+	margin:10px;
+}
+.blockRegister p{
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+.blockRegister p:last-child{
+	margin-top: 30px;
+}
+.blockInput{
+	display: flex;
+	margin: 20px 0;
+	background: #eee;
+}
+button{
+	text-transform: uppercase;
+    background: #62b965;
+    color: white;
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.blockInput, button{
+	padding: 10px;
+    border-radius: 8px;
+}
+.iconForm{
+	padding: 10px 20px 10px 10px;
+}
+.iconEye{ 
+	padding: 10px 10px 10px 20px;
+}
+.blockInput div{
+	width:100%;
+}
+.blockInput div label{
+	font-size: 11px;
+	text-align:left;
+	margin-bottom: 5px;
+}
+.blockInput div label, .blockInput div input{
+	display: block;
+	width: 100%;
+}
+.blockInput div input, .blockInput div input:focus{
+	background: transparent;
+	outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.blockCheck{
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.blockCheck div{
+	display: flex;
+}
+.checkbox{
+	appearance: none;
+	font: inherit;
+	background: #eee;
+	width: 16px;
+	height: 16px;
+	border-radius: 0.15em;
+	margin-right: 10px;
+}
+.blockCheck div label, .blockCheck a{
+	font-size: 14px;
+}
+.blockRegister p:last-child a, .blockCheck a {
+	font-size: 14px;
+	font-weight: 600;
+	color: black;
+	text-decoration: underline black;
+}
